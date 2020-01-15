@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6CA868DD-DE17-4198-9792-9AFBC1829733}</ProjectGuid>
+    <RootNamespace>SGISTL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>Z:\ALGORITHM\STL源码剖析\SGI-STL-master\SGI-STL-master\SGI_STL\SGI_STL\Allocator_Test_Header;Z:\ALGORITHM\STL源码剖析\SGI-STL-master\SGI-STL-master\SGI_STL\SGI_STL\Sequence_Container_Test_Header;Z:\ALGORITHM\STL源码剖析\SGI-STL-master\SGI-STL-master\SGI_STL\SGI_STL\Associattive_Container_Test_Header;Z:\ALGORITHM\STL源码剖析\SGI-STL-master\SGI-STL-master\SGI_STL\SGI_STL\Memory_Management_Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SGI-STL V3.3\algo.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\algobase.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\alloc.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\bvector.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\char_traits.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\concept_checks.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\container_concepts.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\defalloc.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\deque.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\function.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\hashtable.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\hash_map.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\hash_set.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\heap.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\iterator.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\list.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\map.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\multimap.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\multiset.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\pair.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\pthread_alloc.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\rope.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\ropeimpl.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\sequence_concepts.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\set.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\slist.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stack.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_algo.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_algobase.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_alloc.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_bvector.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_config.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_construct.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_ctraits_fns.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_deque.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_exception.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_function.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hashtable.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_fun.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_map.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_set.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_heap.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_iterator.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_iterator_base.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_list.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_map.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_multimap.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_multiset.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_numeric.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_pair.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_queue.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_range_errors.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_raw_storage_iter.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_relops.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_rope.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_set.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_slist.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_stack.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_string_fwd.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_tempbuf.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_threads.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_tree.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_uninitialized.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_vector.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\tempbuf.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\tree.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\type_traits.h" />
+    <ClInclude Include="..\..\SGI-STL V3.3\vector.h" />
+    <ClInclude Include="Allocator_Test_Header\allocator_test.h" />
+    <ClInclude Include="Associattive_Container_Test_Header\multiset_test.h" />
+    <ClInclude Include="Memory_Management_Header\macro_static_allocator.h" />
+    <ClInclude Include="Memory_Management_Header\memory_primitives_test.h" />
+    <ClInclude Include="Memory_Management_Header\per_class_allocator.h" />
+    <ClInclude Include="Memory_Management_Header\per_class_allocator_two.h" />
+    <ClInclude Include="Memory_Management_Header\static_allocator.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\array_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\deque_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\forward_list_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\list_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\queue_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\stack_test.h" />
+    <ClInclude Include="Sequence_Container_Test_Header\vector_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Allocator_Test\allcator_test.cpp" />
+    <ClCompile Include="Allocator_Test\Allocator_test.cpp" />
+    <ClCompile Include="Associattive_Container_Test\multiset_test.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memory_Management\macro_static_allocator.cpp" />
+    <ClCompile Include="Memory_Management\memory_primitives_test.cpp" />
+    <ClCompile Include="Memory_Management\per_class_allocator.cpp" />
+    <ClCompile Include="Memory_Management\per_class_allocator_two.cpp" />
+    <ClCompile Include="Memory_Management\static_allocator.cpp" />
+    <ClCompile Include="Sequence_Container_Test\array_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\deque_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\forward_list_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\list_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\queue_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\stack_test.cpp" />
+    <ClCompile Include="Sequence_Container_Test\vector_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SGI-STL V3.3\algorithm" />
+    <None Include="..\..\SGI-STL V3.3\bitset" />
+    <None Include="..\..\SGI-STL V3.3\deque" />
+    <None Include="..\..\SGI-STL V3.3\functional" />
+    <None Include="..\..\SGI-STL V3.3\hash_map" />
+    <None Include="..\..\SGI-STL V3.3\hash_set" />
+    <None Include="..\..\SGI-STL V3.3\iterator" />
+    <None Include="..\..\SGI-STL V3.3\limits" />
+    <None Include="..\..\SGI-STL V3.3\list" />
+    <None Include="..\..\SGI-STL V3.3\map" />
+    <None Include="..\..\SGI-STL V3.3\memory" />
+    <None Include="..\..\SGI-STL V3.3\numeric" />
+    <None Include="..\..\SGI-STL V3.3\pthread_alloc" />
+    <None Include="..\..\SGI-STL V3.3\queue" />
+    <None Include="..\..\SGI-STL V3.3\rope" />
+    <None Include="..\..\SGI-STL V3.3\set" />
+    <None Include="..\..\SGI-STL V3.3\slist" />
+    <None Include="..\..\SGI-STL V3.3\stack" />
+    <None Include="..\..\SGI-STL V3.3\stdexcept" />
+    <None Include="..\..\SGI-STL V3.3\string" />
+    <None Include="..\..\SGI-STL V3.3\utility" />
+    <None Include="..\..\SGI-STL V3.3\valarray" />
+    <None Include="..\..\SGI-STL V3.3\vector" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
