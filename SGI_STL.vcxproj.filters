@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\STL">
+      <UniqueIdentifier>{f689622f-e487-422e-a097-9f9ed355ebee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sequence_Container_Test">
+      <UniqueIdentifier>{03321603-5b17-4cb4-80fa-da4038d922f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sequence_Container_Test_Header">
+      <UniqueIdentifier>{4bf7cd46-f0d5-4636-80dc-38485001b6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Associattive_Container_Test_Header">
+      <UniqueIdentifier>{66d20c77-e1bb-48d6-b014-48ad1b0e196e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Associattive_Container_Test">
+      <UniqueIdentifier>{0e55a6ed-23c1-49c8-9f83-7515145f5e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Allocator_Test_Header">
+      <UniqueIdentifier>{c9c8ac58-2f94-4274-8efd-dd97ee1af935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Allocator_Test">
+      <UniqueIdentifier>{a62699f3-ea9f-4438-933a-5abf39af3d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Memory_Management_Header">
+      <UniqueIdentifier>{4917701b-fc19-4cfb-864e-f45689faa7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Memory_Management">
+      <UniqueIdentifier>{860b8f7a-1fe7-4456-b4e7-bab765e2abb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SGI-STL V3.3\algo.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\algobase.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\alloc.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\bvector.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\char_traits.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\concept_checks.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\container_concepts.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\defalloc.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\deque.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\function.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\hash_map.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\hash_set.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\hashtable.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\heap.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\iterator.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\list.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\map.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\multimap.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\multiset.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\pair.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\pthread_alloc.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\rope.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\ropeimpl.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\sequence_concepts.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\set.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\slist.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stack.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_algo.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_algobase.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_alloc.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_bvector.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_config.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_construct.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_ctraits_fns.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_deque.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_exception.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_function.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_fun.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_map.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hash_set.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_hashtable.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_heap.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_iterator.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_iterator_base.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_list.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_map.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_multimap.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_multiset.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_numeric.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_pair.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_queue.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_range_errors.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_raw_storage_iter.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_relops.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_rope.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_set.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_slist.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_stack.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_string_fwd.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_tempbuf.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_threads.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_tree.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_uninitialized.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\stl_vector.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\tempbuf.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\tree.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\type_traits.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SGI-STL V3.3\vector.h">
+      <Filter>头文件\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\array_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\deque_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\forward_list_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\list_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\queue_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\stack_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence_Container_Test_Header\vector_test.h">
+      <Filter>头文件\Sequence_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Associattive_Container_Test_Header\multiset_test.h">
+      <Filter>头文件\Associattive_Container_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator_Test_Header\allocator_test.h">
+      <Filter>头文件\Allocator_Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Management_Header\memory_primitives_test.h">
+      <Filter>头文件\Memory_Management_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Management_Header\per_class_allocator.h">
+      <Filter>头文件\Memory_Management_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Management_Header\per_class_allocator_two.h">
+      <Filter>头文件\Memory_Management_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Management_Header\static_allocator.h">
+      <Filter>头文件\Memory_Management_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Management_Header\macro_static_allocator.h">
+      <Filter>头文件\Memory_Management_Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\array_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\deque_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\forward_list_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\list_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\queue_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\stack_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence_Container_Test\vector_test.cpp">
+      <Filter>源文件\Sequence_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Associattive_Container_Test\multiset_test.cpp">
+      <Filter>源文件\Associattive_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator_Test\Allocator_test.cpp">
+      <Filter>源文件\Associattive_Container_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator_Test\allcator_test.cpp">
+      <Filter>源文件\Allocator_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Management\memory_primitives_test.cpp">
+      <Filter>源文件\Memory_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Management\per_class_allocator.cpp">
+      <Filter>源文件\Memory_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Management\per_class_allocator_two.cpp">
+      <Filter>源文件\Memory_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Management\static_allocator.cpp">
+      <Filter>源文件\Memory_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Management\macro_static_allocator.cpp">
+      <Filter>源文件\Memory_Management</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SGI-STL V3.3\algorithm">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\bitset">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\deque">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\functional">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\hash_map">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\hash_set">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\iterator">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\limits">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\list">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\map">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\memory">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\numeric">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\pthread_alloc">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\queue">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\rope">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\set">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\slist">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\stack">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\stdexcept">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\string">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\utility">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\valarray">
+      <Filter>头文件\STL</Filter>
+    </None>
+    <None Include="..\..\SGI-STL V3.3\vector">
+      <Filter>头文件\STL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
